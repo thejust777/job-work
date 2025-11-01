@@ -2,13 +2,15 @@ import { IconAsset } from '@tabler/icons-react';
 
 const Header = () => {
    return <div className="w-full bg-black px-6 text-white h-28 flex justify-between items-center">
-    <div className="flex-gap-3 items-center">
+    <div className="flex gap-3 items-center">
         <IconAsset className="h-10 w-10" stroke={1.25} />
-        <div className="text-2xl">ijobs</div>
+        <div className="text-3xl font-semibold">iJobs</div>
     </div>
     <div>
-
-        links
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
     </div>
     <div>
         profile
